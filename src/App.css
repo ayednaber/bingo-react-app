@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('./wallpaper3.jpg');
+    color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bingo-table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+td {
+    color: rgb(63, 63, 63);
 }
 
-.App-link {
-  color: #61dafb;
+.header-area {
+    display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.welcome {
+    text-align: center;
+    margin-left: 25%;
+    font-size: 60px;
+    margin-bottom: -90px;
+    padding-bottom: 80px;
+}
+
+.num {
+    text-align: center;
+    margin-left: 150px;
+    font-size: 60px;
+    margin-bottom: -90px;
+    padding-bottom: 80px;
+}
+
+.next {
+    padding: 20px;
+    font-family: inherit;
+    border-radius: 10px;
+    background-color: rgb(47, 144, 209);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    margin-left: 10%;
+    font-size: 25px;
+    width: 200px;
+    max-height: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.restart {
+    padding: 20px;
+    background-color: rgb(47, 144, 209);
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    width: 200px;
+    margin-top: 20px;
+    font-family: inherit;
+    border-radius: 10px;
+}
+
+.next:hover {
+    background-color: rgb(24, 92, 138);
+}
+
+.restart:hover {
+    background-color: rgb(24, 92, 138);
+}
+
+table {
+    padding: 10px;
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+th {
+    padding: 10px;
+}
+
+.visible {
+    color: white;
+    transition: width 0.4s ease-in;
 }

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/bingo-react-app/static/css/main.d9cf1971.css",
+    "main.js": "/bingo-react-app/static/js/main.89aac577.js",
+    "static/media/wallpaper3.jpg": "/bingo-react-app/static/media/wallpaper3.ca72dc59821f1c376a5c.jpg",
+    "index.html": "/bingo-react-app/index.html",
+    "main.d9cf1971.css.map": "/bingo-react-app/static/css/main.d9cf1971.css.map",
+    "main.89aac577.js.map": "/bingo-react-app/static/js/main.89aac577.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9cf1971.css",
+    "static/js/main.89aac577.js"
+  ]
+}
